@@ -1,0 +1,64 @@
+/*Select all elements*/
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border size;
+}
+/* header, main, footer */
+header, main, footer {
+    min-width: 100%;
+}
+/* header */
+header {
+    display: inline-flex;
+    justify-content:space-between;
+    background-color: orchid;
+}
+.logo {
+    width: 3em;
+}
+.menu {
+    /* margin: auto 0; */
+    align-items: flex-end;
+    margin: 5px;
+}
+.menu-list{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-list li {
+    padding-right: 10px;
+}
+/* main */
+/* heading */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+/* home */
+#home {
+    background-color: rgba(100, 170, 161, 0.7);
+}
+.wrapper {
+    min-height: 100vh;
+    align-content: center;
+}
+.wrapper img{
+    display: block;
+    margin: 15px auto;
+}
+.wrapper p {
+    text-align: center;
+}
+/*resume */
+#resume {
+    background-color:orchid ;
+}
+/*project */
+#project {
+    background-color: rgba(100, 170, 161, 0.7);
+}
+/*Contact */
+#contact {
+    background-color:orchid
+}
