@@ -1,4 +1,11 @@
-/*Select all elements*/
+body{
+    background-color:rgb(177, 178, 255) ;
+}
+/* font */
+*{
+    font-family: 'Quicksand', sans-serif;
+
+}
 *{
     margin: 0; 
     padding: 0;
@@ -12,22 +19,43 @@ header, main, footer {
 header {
     display: inline-flex;
     justify-content:space-between;
-    background-color: orchid;
 }
 .logo {
-    width: 3em;
+    width: 10em;
+    height: 5em;
+    margin: 0.5% 0% 0.5% 1%;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    margin-left: 10%;
+}
+.content {
+    font-size: 40px;
+    font-weight: 0px;
+    margin-right: 40%;
+    
 }
 .menu {
     /* margin: auto 0; */
     align-items: flex-end;
-    margin: 5px;
+    margin: 25px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
 }
 .menu-list{
     display: inline-flex;
     list-style: none;
 }
 .menu-list li {
-    padding-right: 10px;
+    padding-right: 20px;
+}
+.profile {
+    position: absolute;
+    left: 50%;
+    top: 20%;
 }
 /* main */
 /* heading */
@@ -36,17 +64,17 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
 }
 /* home */
-#home {
-    background-color: rgba(100, 170, 161, 0.7);
-}
-.wrapper {
+/* #home {
+    background-color: rgb(177, 178, 255);
+} */
+/* .wrapper {
     min-height: 100vh;
     align-content: center;
 }
 .wrapper img{
     display: block;
     margin: 15px auto;
-}
+} */
 .wrapper p {
     text-align: center;
 }
