@@ -82,14 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 #resume {
     background-color:rgb(238, 241, 255);
 }
-.Education {
-    background-color: rgb(210, 218, 255);
-    width: 700px;
-    height: 200px;
-    padding-left: 50px;
-    margin-left: 20px;
-}
-.Education {
+#Education {
     background-color: rgb(210, 218, 255);
     width: 700px;
     height: 200px;
@@ -97,9 +90,20 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 20px;
     padding-top: 20px;
 }
+#Experience {
+    background-color: rgb(210, 218, 255);
+    width: 700px;
+    height: 200px;
+    padding-left: 50px;
+    margin-left: 20px;
+}
 /*project */
 #project {
-    background-color:rgb(139, 188, 204);
+    background-color:rgb(238, 241, 255);
+}
+#Port {
+    margin-left: 60px;
+    margin-top: 80px;
 }
 /*Contact */
 #contact {
