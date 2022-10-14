@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(177, 178, 255) ;
+    background-color:rgb(238, 241, 255);
 }
 /* font */
 *{
@@ -27,8 +27,8 @@ header {
 }
 .content {
     position: absolute;
-    top: 50%;
-    margin-left: 10%;
+    margin-top: 70px;
+    margin-left: 100px;
 }
 .content {
     font-size: 40px;
@@ -54,7 +54,7 @@ header {
 }
 .profile {
     position: absolute;
-    left: 50%;
+    margin-left: 850px; ;
     top: 20%;
 }
 /* main */
@@ -80,13 +80,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*resume */
 #resume {
-    background-color:orchid ;
+    background-color:rgb(238, 241, 255);
+}
+.Education {
+    background-color: rgb(210, 218, 255);
+    width: 700px;
+    height: 200px;
+    padding-left: 50px;
+    margin-left: 20px;
+}
+.Education {
+    background-color: rgb(210, 218, 255);
+    width: 700px;
+    height: 200px;
+    padding-left: 50px;
+    margin-left: 20px;
+    padding-top: 20px;
 }
 /*project */
 #project {
-    background-color: rgba(100, 170, 161, 0.7);
+    background-color:rgb(139, 188, 204);
 }
 /*Contact */
 #contact {
-    background-color:orchid
+    background-color:rgb(139, 188, 204);
+}
+
+/* anchor tags */
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+    border-radius: 5px;
+}
+a:hover {
+    font-size: 22px;
+    color: black;
 }
